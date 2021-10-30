@@ -40,3 +40,6 @@ OUTER_LOOP:
 	addi $t9, $zero, 48					#Test if current byte is num
 	bge $t1, $t9, num_add
 	
+	addi $t0, $t0, 1 					#If byte is too low, reaches here
+	addi $t4, $t4, 1
+	j OUTER_LOOP
