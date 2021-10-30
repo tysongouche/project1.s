@@ -68,3 +68,6 @@ lc_add:								#Add to the final sum for lower case
 	
 uc_add:								#Add to the final sum for upper case
 	addi $t0, $t0, 1
+	addi $t4, $t4, 1
+	addi $t1, $t1, -55
+	add $t3, $t3, $t1
