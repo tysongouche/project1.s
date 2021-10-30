@@ -18,3 +18,7 @@ main: 								#Main Section Starts
 	li $t6, 90						#Holds ASCII value of Z
 	li $t7, 122						#Holds ASCII value of z
 	li $t8, 9 						#Test case for 9_t
+
+OUTER_LOOP:
+	beq $t4, $t5, UNDER_LOOP				#LOOP COUNTER
+	lbu $t1, input($t0)					#Load byte from input into t1 register
