@@ -95,3 +95,7 @@ z_t:
 	addi $t4, $t4, 1
 	j OUTER_LOOP
 	
+n_t:
+	addi $t0, $t0, 1
+	addi $t4, $t4, 1
+	j OUTER_LOOP
