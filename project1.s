@@ -56,4 +56,7 @@ UNDER_LOOP:
 	syscall
 	
 	
-	#All of the test cases
+#All of the test cases
+lc_add:								#Add to the final sum for lower case
+		
+	
