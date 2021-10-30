@@ -55,3 +55,5 @@ UNDER_LOOP:
 	li $v0, 10						#Program Ends
 	syscall
 	
+	
+	#All of the test cases
