@@ -79,3 +79,5 @@ num_add:							#Add to the final sum for numbers
 	addi $t1, $t1, -48
 	add $t3, $t3, $t1
 	j OUTER_LOOP
+
+Z_test:
