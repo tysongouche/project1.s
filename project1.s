@@ -61,3 +61,6 @@ lc_add:								#Add to the final sum for lower case
 	addi $t0, $t0, 1
 	addi $t4, $t4, 1
 	addi $t9, $zero, 122
+	bge $t1, $t9, OUTER_LOOP
+	addi $t1, $t1, -87
+	add $t3, $t3, $t1
