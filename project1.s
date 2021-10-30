@@ -13,3 +13,7 @@ main: 								#Main Section Starts
 	
 	li $t4, 0 						#Outerloop Counter
 	li $t3, 0      						#Sum to print
+	li $t5, 10						#Stop Case for outer loop (10)
+	
+	li $t6, 90						#Holds ASCII value of Z
+	li $t7, 122						#Holds ASCII value of z
