@@ -48,3 +48,7 @@ OUTER_LOOP:
 UNDER_LOOP:
 	li $v0, 11						#Print a newline
 	li $a0, 13
+	syscall
+	li $v0, 1  						#Print Sum
+	addi $a0, $t3, 0
+	syscall
