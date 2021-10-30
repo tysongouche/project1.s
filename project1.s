@@ -52,3 +52,6 @@ UNDER_LOOP:
 	li $v0, 1  						#Print Sum
 	addi $a0, $t3, 0
 	syscall
+	li $v0, 10						#Program Ends
+	syscall
+	
