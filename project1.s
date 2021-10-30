@@ -71,3 +71,7 @@ uc_add:								#Add to the final sum for upper case
 	addi $t4, $t4, 1
 	addi $t1, $t1, -55
 	add $t3, $t3, $t1
+	j OUTER_LOOP
+	
+num_add:							#Add to the final sum for numbers
+	
