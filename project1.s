@@ -45,4 +45,6 @@ OUTER_LOOP:
 	j OUTER_LOOP
 
 
-	
+UNDER_LOOP:
+	li $v0, 11						#Print a newline
+	li $a0, 13
