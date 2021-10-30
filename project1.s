@@ -17,3 +17,4 @@ main: 								#Main Section Starts
 	
 	li $t6, 90						#Holds ASCII value of Z
 	li $t7, 122						#Holds ASCII value of z
+	li $t8, 9 						#Test case for 9_t
