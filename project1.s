@@ -34,4 +34,6 @@ OUTER_LOOP:
 	addi $t9, $zero, 97					#Test if current byte is maybe lowercase
 	bge $t1, $t9, lc_add
 	
+	addi $t9, $zero, 65					#Test if current byte is upper
+	bge $t1, $t9, uc_add
 	
