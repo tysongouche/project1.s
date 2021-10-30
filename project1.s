@@ -22,3 +22,6 @@ main: 								#Main Section Starts
 OUTER_LOOP:
 	beq $t4, $t5, UNDER_LOOP				#LOOP COUNTER
 	lbu $t1, input($t0)					#Load byte from input into t1 register
+	beq $t1, $t6, Z_test					#Test if current byte = Z
+	beq $t1, $t7, z_test					#Test if current byte = z
+	
