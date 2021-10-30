@@ -58,5 +58,6 @@ UNDER_LOOP:
 	
 #All of the test cases
 lc_add:								#Add to the final sum for lower case
-		
-	
+	addi $t0, $t0, 1
+	addi $t4, $t4, 1
+	addi $t9, $zero, 122
