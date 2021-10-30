@@ -31,3 +31,7 @@ OUTER_LOOP:
 	slti, $t9, $t1, 9 					#Test if current byte > 9
 	bne $t9, $zero, n_t
 	
+	addi $t9, $zero, 97					#Test if current byte is maybe lowercase
+	bge $t1, $t9, lc_add
+	
+	
