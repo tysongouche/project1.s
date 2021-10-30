@@ -28,3 +28,6 @@ OUTER_LOOP:
 	slti, $t9, $t1, 0					#Test if current byte < 0
 	bne $t9, $zero, z_t
 	
+	slti, $t9, $t1, 9 					#Test if current byte > 9
+	bne $t9, $zero, n_t
+	
