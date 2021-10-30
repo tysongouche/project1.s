@@ -10,3 +10,6 @@ main: 								#Main Section Starts
 	syscall
 	
 	li $t0, 0						#This register will be used for byte addressing
+	
+	li $t4, 0 						#Outerloop Counter
+	li $t3, 0      						#Sum to print
