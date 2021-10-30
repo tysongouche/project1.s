@@ -25,3 +25,6 @@ OUTER_LOOP:
 	beq $t1, $t6, Z_test					#Test if current byte = Z
 	beq $t1, $t7, z_test					#Test if current byte = z
 	
+	slti, $t9, $t1, 0					#Test if current byte < 0
+	bne $t9, $zero, z_t
+	
