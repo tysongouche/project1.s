@@ -2,3 +2,7 @@
 	input: .space 11					#Reserve 11 bytes for input
 
 .text 								#text section starts
+
+main: 								#Main Section Starts
+	li $v0, 8						#Load Read input command
+	la $a0, input						#Mem Address from input is now destination MA
