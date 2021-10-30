@@ -37,3 +37,6 @@ OUTER_LOOP:
 	addi $t9, $zero, 65					#Test if current byte is upper
 	bge $t1, $t9, uc_add
 	
+	addi $t9, $zero, 48					#Test if current byte is num
+	bge $t1, $t9, num_add
+	
